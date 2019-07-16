@@ -5,16 +5,23 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="Contactos.NuevoContactoPage">
+        
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout Margin="20">
             <Entry x:Name="nombreEntry"
+                  Text="Nombre"
                   Placeholder="Nombre"/>
             <Entry x:Name="apellidoEntry"
-                  Placeholder="Apellido"/>
+                   Text="Apellido"
+                   Placeholder="Apellido"/>
             <Entry x:Name="emailEntry"
+                    Style="{StaticResource estiloAdicional}"
+                  Text="fernando@email.com"
                   Keyboard="Email" 
                   Placeholder="Email"/>
             <Entry x:Name="telefonoEntry"
+                    Style="{StaticResource estiloAdicional}"
+                  Text="123-1235-4568" 
                   Keyboard="Telephone"
                   Placeholder="Telefono"/>
         </StackLayout>

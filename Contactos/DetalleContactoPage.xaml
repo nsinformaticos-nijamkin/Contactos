@@ -16,6 +16,7 @@
         </Grid.RowDefinitions>
 
         <Label x:Name="nombreLabel"
+                TextColor="{StaticResource colorPrincipal}"
                Text="Nombre Apellido"
                Grid.Column="1"/>
 
