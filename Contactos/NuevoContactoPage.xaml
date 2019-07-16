@@ -24,6 +24,8 @@
                   Text="123-1235-4568" 
                   Keyboard="Telephone"
                   Placeholder="Telefono"/>
+            <Button Text="Guardar"
+                    Clicked="Button_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
